@@ -19,7 +19,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter hwY635,$(TARGET_DEVICE)),)
 
-nclude $(CLEAR_VARS)
+include $(CLEAR_VARS)
 LOCAL_MODULE := GsmaNfcService
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/vendor/app/GsmaNfcService/GsmaNfcService.apk
